@@ -33,8 +33,9 @@ const Attribute = ({
                 ? "line-through !text-gray-400  cursor-not-allowed"
                 : "cursor-pointer   "
             } 
+            whitespace-pre-wrap
             flex bg-accent font-medium text-gray-600 
-            items-center justify-center m-1 text-base  p-3 h-9  rounded-sm min-w-[50px]
+            items-center justify-center m-1 text-base  p-2   rounded-sm min-w-[50px]
             ${ActiveId == el.id ? "  bg-primary underline" : ""}
             ${i18n.language != "ar" ? "float-left" : "float-right"}
            

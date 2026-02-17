@@ -184,7 +184,7 @@ function ProductPopup({ slug, children }: { slug: string, children: React.ReactN
         </DrawerHeader>
         <div className="p-4 pt-0 relative z-50 mt-3  overflow-auto "
           onScroll={(e) => {
-            console.log(e.currentTarget.scrollTop)
+           
           }}
           id="product-sc" >
 
